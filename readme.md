@@ -54,6 +54,18 @@ tauri 使用相关的 rust 包，会自己安装。
 - umi v4
 - tauri v1
 
+## 打包
+
+```
+pnpm tauri build
+```
+
+执行后有提示，修改 identifier 进行打包。
+
+详情看官网[构建](https://tauri.app/zh/v1/guides/building/)
+
+**tauri 打包前记得先把 web 打包。**
+
 ## 杂记
 
 rustup update 更新 rustc
